@@ -58,7 +58,7 @@ namespace BaltaStore.Api
             app.UseAuthorization();
 
             app.UseResponseCompression();
-            //add comment
+            //update comment
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
